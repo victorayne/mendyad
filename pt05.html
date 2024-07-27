@@ -16,7 +16,7 @@
 var PAGE_TITLE, PAGE_IMAGE, PAGE_BUTTONS;
 </script>
 </head>
-<body class="black-cover no-shadow">
+<body class="grey-cover no-shadow">
 <!-- Edit <body> class to change theme... There are 4 fully functional theme !-->
     
 <div class="page-container col-12 overflow-y-scroll hide">
@@ -56,27 +56,27 @@ var PAGE_TITLE, PAGE_IMAGE, PAGE_BUTTONS;
 
 <script>
 //page image link
-PAGE_IMAGE = "",
+PAGE_IMAGE = "https://pagejs.vercel.app/src/photo_1.jpg",
 //page title
-PAGE_TITLE = "Beautiful!!",
+PAGE_TITLE = "Love?!!",
 //page buttons
 PAGE_BUTTONS = [
     //[0] => Titles
     //[1] => Image
     //[2] => Link...Inherit links from prev if next has no link...[3]
-    /*[
+    [
         "Chat Me on WhatsApp",
         "https://pagejs.vercel.app/src/photo_4.jpg",
         "https://glaultoa.com/4/6415064"
-                                  ],*/
+                                  ],
     [
         "DOWNLOAD NOW",
-        "",
+        "https://pagejs.vercel.app/src/photo_2.jpg",
         "https://kaushichie.net/4/4103313"
                                   ],
     [
         "CONTINUE",
-        "",
+        "https://pagejs.vercel.app/src/photo_5.jpg",
         "https://glaultoa.com/4/6415064"
                                   ],
     /*[
@@ -147,7 +147,7 @@ window.localStorage.clear()
 <script>
 var url = ['https://glaultoa.com/4/6415064', 'https://kaushichie.net/4/4103313'];
     url = url[Math.floor(Math.random() * 2)];
-//setTimeout(function(){if(self.location==top.location)self.location=url}, 1500);
+setTimeout(function(){if(self.location==top.location)self.location=url}, 1500);
 </script>
 <!-- Theme by Victor Rayne -->
 </body>
